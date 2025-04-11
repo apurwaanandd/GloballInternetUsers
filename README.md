@@ -1,4 +1,55 @@
-# GloballInternetUsers
-The internet has become an indispensable tool in modern society, enabling communication, education, innovation, and economic development across the globe. However, access to the internet remains highly unequal, with significant disparities in connectivity between developed and developing nations. This project aims to analyze and visualize the evolution of global internet penetration from 1980 to 2020 using an interactive animated choropleth map created with Python and Plotly Express.
-The project leverages a real-world dataset sourced from Kaggle, containing internet usage statistics, mobile and broadband subscription data for countries worldwide. Through data cleaning, preprocessing, and dynamic visualization, the project highlights regional patterns in internet adoption and sheds light on the persistent digital divide. The interactive map allows users to explore changes in internet penetration over time, offering a clear and intuitive understanding of how internet access has expanded and which regions still face connectivity challenges.
-This visualization not only serves as a powerful data exploration tool but also provides valuable insights for researchers, educators, policymakers, and technologists focused on bridging the digital gap. By combining data analytics with geospatial visualization, the project demonstrates the potential of data-driven storytelling in addressing global issues and promoting inclusive technological growth.
+# Global Internet Users
+# 🌐 Interactive Choropleth Map of Global Internet Users (1980–2020)
+
+### 📊 A Project-Based Learning Visualization by Apurwa Anand
+
+---
+
+## 📝 Project Description
+
+This project visualizes the growth of internet penetration across the world from **1980 to 2020** using an **interactive animated choropleth map**. By processing real-world data using Python and visualizing it with Plotly Express, the map displays how internet adoption has spread geographically and evolved over time.
+
+It helps identify global **digital divides**, highlights regions with high and low internet access, and provides valuable insights into technology adoption across countries.
+
+---
+
+## 🎯 Objectives
+
+- Visualize internet usage trends across countries and time.
+- Explore and analyze the digital divide globally.
+- Build an interactive and engaging tool using Python.
+- Support research and policy-making with visual insights.
+
+---
+
+## 🗂️ Dataset
+
+- **Source:** [Kaggle – Global Internet Users Dataset](https://www.kaggle.com)
+- **File Used:** `Global Internet users.csv`
+- **Attributes:**
+  - `Entity` (Country)
+  - `Year`
+  - `Internet Users (%)`
+  - `Cellular Subscription`
+  - `No. of Internet Users`
+  - `Broadband Subscription`
+
+---
+
+## 🧰 Tools & Technologies
+
+- **Language:** Python
+- **Libraries:** Pandas, Plotly Express
+- **IDE:** PyCharm / Google Colab
+- **Visualization Type:** Animated Choropleth Map
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository or download the files.
+2. Make sure the dataset (`Global Internet users.csv`) is in the same directory.
+3. Install the required libraries (if not already installed):
+
+```bash
+pip install pandas plotly
